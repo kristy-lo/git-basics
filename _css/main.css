@@ -30,11 +30,44 @@ arations */
     font-weight: bold;
     font-style: normal;
 }
+<<<<<<< HEAD
 
 @font-face {
     font-family: 'bitter';
     src: url('../_fonts/bitter-italic.eot');
     }
+=======
+/* Specific elements
+ ========================================================================*/
+header,main,footer {
+	padding: 0 2em;
+}
+header {
+	 border-bottom:1px solid rgb(157,189,198);
+	 margin-bottom: 1em;
+	 background: rgb(218,234,239);
+ }
+header h1 {
+	 color: rgb(127,64,45);
+	 padding-top: 1em;
+ }
+
+ main h2 {
+	 margin-top: 0.2em;
+	 margin-bottom: 0.5em;
+ }
+  main h3 {
+	 margin-top: 0.2em;
+	 margin-bottom: 0;
+ }
+ footer {
+	 background: rgb(157,189,198);
+	 padding: 2em;
+	 font-size: 0.8em;
+ }
+/* Forms
+   ========================================================================== */
+>>>>>>> bugFix
 
 @font-face {
     font-family: 'bitter';
@@ -76,3 +109,9 @@ arations */
     font-weight: normal;
     font-style: normal;
 }
+<<<<<<< HEAD
+=======
+.cb {
+	clear: both;
+}
+>>>>>>> bugFix
