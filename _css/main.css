@@ -35,6 +35,27 @@
     font-family: 'bitter';
     src: url('../_fonts/bitter-italic.eot');
     }
+pre {
+	background: black;
+	padding: 1em 2em;
+	color: #F2EFB5;
+	font-size: 1.4em;
+	white-space: pre-wrap; 
+ 	white-space: -moz-pre-wrap;  
+	white-space: -pre-wrap;      
+	white-space: -o-pre-wrap;  
+	word-wrap: break-word;
+	overflow: auto;
+}
+/* Forms
+   ========================================================================== */
+
+/*Address margins set differently in Firefox 4+, Safari 5, and Chrome.*/
+
+button, input,optgroup,select,textarea {
+  margin: 0;
+}
+>>>>>>> bugFix
 
 @font-face {
     font-family: 'bitter';
